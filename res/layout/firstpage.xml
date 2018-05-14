@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/firstpicpnj"
+    >
+    
+  <Button
+        android:id="@+id/count"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/shape"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:background="#33b5e5"
+        android:text="count"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/letter"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/shape"
+        android:layout_below="@+id/count"
+        android:layout_marginTop="15dp"
+        android:background="#99cc00"
+        android:text="LETTERS"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/touch"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/shape"
+        android:layout_marginRight="19dp"
+        android:layout_marginTop="21dp"
+        android:background="#ff8800"
+        android:text="SONGS"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/colour"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/touch"
+        android:layout_below="@+id/touch"
+        android:layout_marginTop="15dp"
+        android:background="#9966cc"
+        android:text="colour"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/shape"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/touch"
+        android:layout_centerVertical="true"
+        android:background="#ff4444"
+        android:text="shape"
+        android:textColor="@android:color/white" />
+
+    
+    
+</RelativeLayout>
